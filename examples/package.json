@@ -1,0 +1,20 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pspA": "npx tsx ./pspA.ts",
+    "pspB": "npx tsx ./pspB.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fex/sdk": "file:../dist",
+    "fastify": "^5.11.3"
+  },
+  "devDependencies": {
+    "tsx": "4.23.12"
+  }
+}
